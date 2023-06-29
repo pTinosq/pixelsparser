@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pixelsparser"
-version = "2.0.0"
+version = "2.0.1"
 authors = [{ name = "Constantinos Psomadakis", email = "business@tinosps.com" }]
 description = "A python library that allows users to import their Pixels JSON data and use it in their python scripts."
 readme = "README.md"
