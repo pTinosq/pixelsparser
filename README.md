@@ -1,5 +1,10 @@
 # pixelsparser
 
+[![Upload Python Package](https://github.com/pTinosq/pixelsparser/actions/workflows/python-publish.yml/badge.svg)](https://github.com/pTinosq/pixelsparser/actions/workflows/python-publish.yml)
+[![Python package](https://github.com/pTinosq/pixelsparser/actions/workflows/python-package.yml/badge.svg)](https://github.com/pTinosq/pixelsparser/actions/workflows/python-package.yml)
+![PyPI - License](https://img.shields.io/pypi/l/pixelsparser)
+![GitHub issues](https://img.shields.io/github/issues/ptinosq/clipio)
+![GitHub last commit](https://img.shields.io/github/last-commit/ptinosq/clipio)
 A Python library that allows users to import their Pixels JSON data and use it in their python scripts.
 
 ## Installation
