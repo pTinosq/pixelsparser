@@ -14,7 +14,8 @@ class Pixel:
     Return: Pixel object
     """
 
-    def __init__(self, date: datetime, type: str, scores: list, notes: str, tags: list):
+    def __init__(self, date: str, type: str, scores: list, notes: str,
+                 tags: list):
         self.date = datetime.strptime(date, "%Y-%m-%d")
         self.pixelType = type
         self.notes = notes
@@ -25,9 +26,10 @@ class Pixel:
         self.score = scores[0]
         self.mood = scores[0]
 
-
     def __str__(self):
-        return f"Pixel(date={self.date}, type={self.pixelType}, score={self.score}, mood={self.mood}, notes={self.notes}, tags={self.tags})"
+        return f"Pixel(date={self.date}, type={self.pixelType}," \
+                f"score={self.score}, mood={self.mood}, notes={self.notes}," \
+                f"tags={self.tags})"
 
     def __repr__(self):
         return self.__str__()
