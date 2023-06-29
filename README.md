@@ -1,6 +1,6 @@
 # pixelsparser
 
-A python library that allows users to import their Pixels JSON data and use it in their python scripts.
+A Python library that allows users to import their Pixels JSON data and use it in their python scripts.
 
 ## Installation
 
