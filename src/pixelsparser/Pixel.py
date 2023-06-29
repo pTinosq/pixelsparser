@@ -6,28 +6,28 @@ class Pixel:
 
     Keyword arguments:
     date -- date of the pixel
-    mood -- mood value of the pixel
+    type -- type of the pixel
+    scores -- list of scores
     notes -- notes of the pixel
-    isHighlighted -- is the pixel highlighted
-    tags -- tags of the pixel
+    tags -- list of tag categories
 
     Return: Pixel object
     """
 
-    def __init__(self, date: datetime, entries: list):
+    def __init__(self, date: datetime, type: str, scores: list, notes: str, tags: list):
         self.date = datetime.strptime(date, "%Y-%m-%d")
-        self.mood = entries[0]['value']
-        self.notes = entries[0]['notes']
-        self.isHighlighted = entries[0]['isHighlighted']
+        self.pixelType = type
+        self.notes = notes
+        self.tags = tags
 
-        # If no tags are present, set tags to an empty list
-        if len(entries[0]['tags']) == 0:
-            self.tags = []
-        else:
-            self.tags = entries[0]['tags'][0]['entries']
+        # Multiple scores not yet implemented in the app
+        self.scores = scores
+        self.score = scores[0]
+        self.mood = scores[0]
+
 
     def __str__(self):
-        return f"Pixel({self.date}, {self.mood}, {self.notes}, {self.isHighlighted}, {self.tags})"
+        return f"Pixel(date={self.date}, type={self.pixelType}, score={self.score}, mood={self.mood}, notes={self.notes}, tags={self.tags})"
 
     def __repr__(self):
         return self.__str__()
