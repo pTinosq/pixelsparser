@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2022-9-20",
+        "type": "Mood",
+        "scores": [
+            2
+        ],
+        "notes": "I accidentally ate a whole bag of chips today. It slipped into my mouth. I swear!",
+        "tags": [
+            {
+                "type": "Emotions",
+                "entries": [
+                    "joy",
+                    "sadness",
+                    "fear",
+                    "disgust"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2022-9-21",
+        "type": "Mood",
+        "scores": [
+            3
+        ],
+        "notes": "I'm feeling pretty good today. I'm going to try to eat better.",
+        "tags": [
+            {
+                "type": "Emotions",
+                "entries": [
+                    "joy",
+                    "disgust"
+                ]
+            }
+        ]
+    }
+]
