@@ -34,5 +34,28 @@
                 ]
             }
         ]
+    },
+    {
+        "date": "2025-12-31",
+        "type": "Mood",
+        "scores": [
+            1
+        ],
+        "notes": "Christmas was a disaster.\n I ate too much and now I feel sick.",
+        "tags": [
+            {
+                "type": "Emotions",
+                "entries": []
+            }
+        ]
+    },
+    {
+        "date": "2019-1-1",
+        "type": "Mood",
+        "scores": [
+            5
+        ],
+        "notes": "Another day, another dollar.",
+        "tags": []
     }
 ]
